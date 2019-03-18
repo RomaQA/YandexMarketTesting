@@ -1,0 +1,43 @@
+Feature: Получение информации о количестве моделей от производителей Apple, Lenovo, Xiaomi для процессоров Core i7 и Core i5
+
+
+  Scenario: Получить информацию о количество моделей от Apple для процессора Core i7
+    Given: open Yandex Market
+    When input to the search field "Apple Core i7"
+    And press on the search button
+    Then number of models "Apple Core i7" should be displayed
+
+
+  Scenario: Получить информацию о количество моделей от Apple для процессора Core i5
+    Given: open Yandex Market
+    When input to the search field "Apple Core i5"
+    And press on the search button
+    Then number of models "Apple Core i5" should be displayed
+
+
+  Scenario: Получить информацию о количество моделей от Lenovo для процессора Core i7
+    Given: open Yandex Market
+    When input to the search field "Lenovo Core i7"
+    And press on the search button
+    Then number of models "Lenovo Core i7" should be displayed
+
+
+  Scenario: Получить информацию о количество моделей от Lenovo для процессора Core i5
+    Given: open Yandex Market
+    When input to the search field "Lenovo Core i5"
+    And press on the search button
+    Then number of models "Lenovo Core i5" should be displayed
+
+
+  Scenario: Получить информацию о количество моделей от Xiaomi для процессора Core i7
+    Given: open Yandex Market
+    When input to the search field "Xiaomi Core i7"
+    And press on the search button
+    Then number of models "Xiaomi Core i7" should be displayed
+
+  @tag6
+  Scenario: Получить информацию о количество моделей от Xiaomi для процессора Core i5
+    Given: open Yandex Market
+    When input to the search field "Xiaomi Core i5"
+    And press on the search button
+    Then number of models "Xiaomi Core i5" should be displayed
