@@ -1,35 +1,16 @@
 package YandexMarket.steps;
 
 import YandexMarket.pageobjects.*;
-
 import YandexMarket.pageobjects.YandexMarketMainPage;
-import com.codeborne.selenide.commands.IsDisplayed;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import com.codeborne.selenide.Condition;
-import cucumber.api.PendingException;
-import cucumber.api.java.mn.Харин;
-import javafx.scene.control.TextFormatter;
-import jdk.nashorn.internal.runtime.Undefined;
-import org.openqa.selenium.By;
-
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.List;
-
-import static com.codeborne.selenide.Selectors.byName;
-import static com.codeborne.selenide.Selectors.byText;
-import static com.codeborne.selenide.Selectors.byValue;
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Condition.*;
-import static com.codeborne.selenide.WebDriverRunner.url;
-import static org.junit.Assert.assertThat;
-import static org.hamcrest.CoreMatchers.containsString;
-import static com.codeborne.selenide.Selectors.*;
-import static org.junit.Assert.fail;
+
 
 public class StepDev {
 
