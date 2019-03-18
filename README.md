@@ -7,7 +7,7 @@ You must use Google Chrome version not more newer than 73. If you use 74 version
 
 **Desciption**:
 ---
-This test suite get a number of models from brends as: Apple, Lenovo, Xiaomi with processors Core i7 and Core i5.
+This test suite get a number of models from brends as: Apple, Lenovo, Xiaomi with processors Core i7 and Core i5 using Yandex.Market.
 
 **How to use**:
 ---
