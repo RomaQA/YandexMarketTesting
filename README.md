@@ -1,7 +1,7 @@
 # YandexMarketTesting
 **Note**: 
 ---
-This case doesn't support on the latest Google Chrome version 74 by reason https://twitter.com/jselenide/status/1105734134633127938/
+This case doesn't support on the latest Google Chrome version 74 by reason: https://twitter.com/jselenide/status/1105734134633127938/
 
 You must use Google Chrome version not more newer than 73. If you use 74 version, you need to do next steps:  https://twitter.com/Anton94569401/status/1105807763043692547 
 
